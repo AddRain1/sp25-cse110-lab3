@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting minutes for our SWE team brainstorming session">
+    <meta name="author" content="Adrian Vo">
+    <title>Card Project Planning</title>
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <header>
+        <h1>Card Project Planning</h1>
+        <h2>Meeting Topic: Planning</h2>
+        <h3>Date: April 12, 2025</h3>
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#unfinished">In Progress</a></li>
+                <li><a href="#new">New Goals</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#form">Feedback Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <ul>
+                <li>Charles</li>
+                <li>Johnny</li>
+                <li>Ashley</li>
+            </ul>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ol>
+                <li>Check-in and goals</li>
+                <li>Discuss what features we want in the project</li>
+                <li>Assign roles and tasks</li>
+            </ol>
+        </section>
+
+        <section id="unfinished">
+            <h2>In Progress</h2>
+            <p>We still need to finalize the team name.</p>
+        </section>
+
+        <section id="new">
+            <h2>New Goals</h2>
+            <p>New feature suggestions included:</p>
+            <ul>
+                <li><strong>Card flipping</strong> to show answer/question</li>
+                <li><em>Dark mode</em> for night use</li>
+                <li>List<span> of</span> completed cards</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Comments</h2>
+            <p><b>Charles</b> wanted to explore different coloring options.<br>
+                <i>I</i> suggested having decks of card sets.
+            </p>
+            <hr>
+        </section>
+
+        <section id="media">
+            <h2>Meeting Media</h2>
+            <img src="flashcards.png" width="400">
+            <details>
+                <summary>See image explanation</summary>
+                <p>This is an example of how we want the flash cards to appear.</p>
+            </details>
+
+            <h3>Audio Recording</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Recording</h3>
+            <video width="400" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="form">
+            <h2>Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Any comments?</legend>
+                    <label for="name">Name:</label>
+                    <input type="text"><br><br>
+
+                    <label for="date">Date:</label>
+                    <input type="date"><br><br>
+
+                    <label>What did you think of the meeting?</label><br>
+                    <input type="radio"> Amazing!<br>
+                    <input type="radio"> Okay<br>
+                    <input type="radio"> Horrible<br><br>
+
+                    <label>If you had only 5 minutes, what would you do?</label><br>
+                    <input type="checkbox"> Nothing<br>
+                    <input type="checkbox"> Something<br>
+                    <input type="checkbox"> Everything<br><br>
+
+                    <label for="favorite">Your favorite food:</label>
+                    <select>
+                        <option>Fried Chicken</option>
+                        <option>Noodles</option>
+                        <option>Steak</option>
+                    </select><br><br>
+
+                    <label for="other">Anything you want to say:</label><br>
+                    <textarea rows="4" cols="50"></textarea><br><br>
+
+                    <label for="suggestions">What should our team color be:</label><br>
+                    <input list="colors" id="suggestions" name="suggestions">
+                    <datalist id="colors">
+                        <option value="Green">
+                        <option value="Red">
+                        <option value="Blue">
+                    </datalist><br><br>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Meeting notes written by Adrian Vo. &copy; 2025</p>
+        <div>Generated for CSE 110 Lab 2</div>
+    </footer>
+</body>
+
+</html>
