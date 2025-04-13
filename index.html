@@ -70,7 +70,7 @@
 
         <section id="media">
             <h2>Meeting Media</h2>
-            <img src="flashcards.png" width="400">
+            <img src="flashcards.png" alt="Flashcards" width="400">
             <details>
                 <summary>See image explanation</summary>
                 <p>This is an example of how we want the flash cards to appear.</p>
@@ -95,10 +95,10 @@
                 <fieldset>
                     <legend>Any comments?</legend>
                     <label for="name">Name:</label>
-                    <input type="text"><br><br>
+                    <input type="text" id="name" name="name"><br><br>
 
                     <label for="date">Date:</label>
-                    <input type="date"><br><br>
+                    <input type="date" id="date" name="date"><br><br>
 
                     <label>What did you think of the meeting?</label><br>
                     <input type="radio"> Amazing!<br>
@@ -111,14 +111,14 @@
                     <input type="checkbox"> Everything<br><br>
 
                     <label for="favorite">Your favorite food:</label>
-                    <select>
+                    <select id="favorite" name="favorite">
                         <option>Fried Chicken</option>
                         <option>Noodles</option>
                         <option>Steak</option>
                     </select><br><br>
 
                     <label for="other">Anything you want to say:</label><br>
-                    <textarea rows="4" cols="50"></textarea><br><br>
+                    <textarea id="other" name="other" rows="4" cols="50"></textarea><br><br>
 
                     <label for="suggestions">What should our team color be:</label><br>
                     <input list="colors" id="suggestions" name="suggestions">
