@@ -1,7 +1,7 @@
 ---
-name: Issue Report
-about: How to report and describe an issue.
-title: "[Issue Report]"
+name: Bug Report
+about: How to report and describe a bug you encountered.
+title: "[Bug Report]"
 labels: ''
 assignees: ''
 
