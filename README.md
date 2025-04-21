@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-https://addrain1.github.io/Lab2_Starter/
+https://addrain1.github.io/sp25-cse110-lab3/
