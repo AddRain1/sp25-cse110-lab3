@@ -16,15 +16,49 @@ header {
     width: 92vw;
     justify-content: center;
 }
+
 h1 {
     font-size: 24px;
-    margin-bottom: 1in;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 2px;
+    border-radius: 10px;
 }
+
 h2 {
     background-color: color-mix(in srgb, white 30%, blue 70%);
+    margin: 10px 20px 15px 25px;
+}
+
+section {
+    margin: 30px auto 20px auto;
+    padding: 20px 15px 10px 15px;
+    border: 2px dashed darkgreen;
+    border-radius: 8px;
 }
 
 #attendance {
-    background-color: #800080;
+    background-color: #1cdac0;
+
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+    border-style: dotted;
+    border-color: white;
+    border-width: 3px;
 }
 
+#hidden-note {
+    display: none;
+}
+
+#form {
+    display: inline-block;
+}
