@@ -1,1 +1,22 @@
-/* comment here */
+/* body */
+body {
+    background: lightblue; 
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+/* header */
+header {
+    background-color: hsl(207, 44%, 49%);
+    color: color(srgb 0 0 0);
+    padding: 10px 0;
+    text-align: center;
+}
+
+h2 {
+    background-color: color-mix(in srgb, white 30%, blue 70%);
+}
+
+#attendance {
+    background-color: #800080;
+}
