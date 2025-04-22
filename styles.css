@@ -3,16 +3,23 @@ body {
     background: lightblue; 
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
+    font-size: 1rem;
+    padding: 2em;
 }
 
 /* header */
 header {
     background-color: hsl(207, 44%, 49%);
     color: color(srgb 0 0 0);
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
+    width: 92vw;
+    justify-content: center;
 }
-
+h1 {
+    font-size: 24px;
+    margin-bottom: 1in;
+}
 h2 {
     background-color: color-mix(in srgb, white 30%, blue 70%);
 }
@@ -20,3 +27,4 @@ h2 {
 #attendance {
     background-color: #800080;
 }
+
