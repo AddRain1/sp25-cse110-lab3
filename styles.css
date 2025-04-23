@@ -14,6 +14,7 @@ body {
 /* header */
 header {
     background-color: hsl(207, 44%, 49%);
+    color: black;
     color: color(srgb 0 0 0);
     padding: 10px;
     text-align: center;
@@ -35,6 +36,7 @@ h1 {
 }
 
 h2 {
+    background-color: #6699cc;
     background-color: color-mix(in srgb, white 30%, blue 70%);
     margin: 10px 20px 15px 25px;
 }
@@ -49,7 +51,7 @@ section {
     border: 2px dashed darkgreen;
     border-radius: 8px;
     height: auto;
-    max-width: auto;
+    max-width: 100%;
     min-width: auto;
 }
 
@@ -128,4 +130,27 @@ input[type="radio"] {
 
 fieldset > label {
     font-weight: bold;
+}
+
+h2~p {
+    background-color: #eee;
+}
+
+h3+nav {
+    margin-top: 15px;
+}
+
+p.special {
+    font-style: italic;
+    color: green;
+}
+
+section:has(ul) {
+    border-color: purple;
+}
+
+#agenda {
+    h2 {
+        padding-left: 0;
+    }
 }
