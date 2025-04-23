@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 /* body */
 body {
     background: lightblue; 
     color: rgb(0, 0, 0);
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 1rem;
     padding: 2em;
 }
@@ -35,11 +39,31 @@ h2 {
     margin: 10px 20px 15px 25px;
 }
 
+h1, h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
 section {
     margin: 30px auto 20px auto;
     padding: 20px 15px 10px 15px;
     border: 2px dashed darkgreen;
     border-radius: 8px;
+    height: auto;
+    max-width: auto;
+    min-width: auto;
+}
+
+nav:hover {
+    color: white
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
 }
 
 #attendance {
@@ -55,10 +79,53 @@ section {
     border-width: 3px;
 }
 
+#attendance ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
 #hidden-note {
     display: none;
+    position: absolute;
 }
 
 #form {
     display: inline-block;
+    position: relative
+}
+
+#button:active {
+    background-color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: lavender;
+        font-size: 0.9rem;
+        padding: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    video,
+    img {
+        width: 100%;
+    }
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+fieldset > label {
+    font-weight: bold;
 }
