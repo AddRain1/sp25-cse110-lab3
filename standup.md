@@ -1,11 +1,10 @@
-# Standup – 2022-00-00 (Mon/Tue/Wed/Thu/Fri)
+# Standup
 
 ## Attendees
-- [ ] Ben Peachey _(Scrum Master)_
-- [ ] John Doe _(Remote)_
-- [ ] Jane Doe _(Product Owner)_
-- [ ] Nomen Nescio
-- [ ] _(Add more…)_
+- [X] A
+- [ ] B
+- [ ] C
+- [ ] D
 
 ---
 
@@ -21,15 +20,15 @@
 ---
 
 ## Blockers
-- _[e.g., Blocked by lack of API access – Jane following up]_
+- _[e.g., Cannot acces env variable]_
 
 ---
 
 ## Knowledge Sharing
-- _[e.g., Useful link: [How to set up CI](https://example.com)]_
-- _[e.g., JS debounce vs throttle: key differences]_
+- _[e.g., Node.js is a runtime environment]_
+- _[]_
 
 ---
 
 ## Other Notes
-- _[Any other relevant items]_
+- _[This was done in markdown]_
